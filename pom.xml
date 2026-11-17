@@ -4,54 +4,55 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 
-	    <modelVersion>4.0.0</modelVersion>
+        <modelVersion>4.0.0</modelVersion>
 
-	    <groupId>de.eldecker.dhbw</groupId>
-	    <artifactId>bruchrechenverwender</artifactId>
-	    <version>0.0.1-SNAPSHOT</version>
-	    <packaging>jar</packaging>
+        <groupId>de.eldecker.dhbw</groupId>
+        <artifactId>bruchrechenverwender</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+	
+        <packaging>jar</packaging>
 
-	    <name>bruchrechenverwender</name>
-	    <url>https://github.com/MDecker-MobileComputing/Maven_BruchrechnerBibliothekVerwender</url>
-	    <description>Verwender der Bruchrechner-Bibliothek</description>
-	    <inceptionYear>2024</inceptionYear>
-	    <licenses>
-	        <license>
-	          <name>BSD 3-Clause License</name>
-	          <url>https://opensource.org/license/BSD-3-clause/</url>
-	        </license>
-	    </licenses>
+        <name>bruchrechenverwender</name>
+        <url>https://github.com/MDecker-MobileComputing/Maven_BruchrechnerBibliothekVerwender</url>
+        <description>Verwender der Bruchrechner-Bibliothek</description>
+        <inceptionYear>2024</inceptionYear>
+        <licenses>
+            <license>
+              <name>BSD 3-Clause License</name>
+              <url>https://opensource.org/license/BSD-3-clause/</url>
+            </license>
+        </licenses>
 
-	    <properties>
+        <properties>
 
-	        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-	        <java.version>23</java.version>
-	        <maven.compiler.source>${java.version}</maven.compiler.source>
-	        <maven.compiler.target>${java.version}</maven.compiler.target>
-	        <maven.compiler.release>${java.version}</maven.compiler.release>
+            <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+            <java.version>23</java.version>
+            <maven.compiler.source>${java.version}</maven.compiler.source>
+            <maven.compiler.target>${java.version}</maven.compiler.target>
+            <maven.compiler.release>${java.version}</maven.compiler.release>
 
-	        <!-- Plugin versions -->
-	        <maven.shade>3.2.2</maven.shade>
-	        <maven.clean>3.1.0</maven.clean>
-	        <maven.resources>3.1.0</maven.resources>
-	        <maven.compiler>3.8.1</maven.compiler>
-	        <maven.surefire>3.0.0-M5</maven.surefire>
-	        <maven.jar>3.2.0</maven.jar>
-	        <maven.install>3.0.0-M1</maven.install>
+            <!-- Plugin versions -->
+            <maven.shade>3.2.2</maven.shade>
+            <maven.clean>3.1.0</maven.clean>
+            <maven.resources>3.1.0</maven.resources>
+            <maven.compiler>3.8.1</maven.compiler>
+            <maven.surefire>3.0.0-M5</maven.surefire>
+            <maven.jar>3.2.0</maven.jar>
+            <maven.install>3.0.0-M1</maven.install>
 
-	    </properties>
+        </properties>
 
 
-	    <dependencies>
+        <dependencies>
 
-	    	<!-- Eigene Bibliothek referenzieren -->
-	        <dependency>
-	        	<groupId>de.eldecker.dhbw</groupId>
-	        	<artifactId>bruchrechnen</artifactId>
-	        	<version>0.0.1-SNAPSHOT</version>
-	        </dependency>
+            <!-- Eigene Bibliothek auf JitPack referenzieren -->
+            <dependency>
+               <groupId>com.github.mdecker-dh</groupId>
+               <artifactId>Maven_BruchrechnerBibliothek4JitPack</artifactId>
+               <version>1.0.0</version>
+            </dependency>
 
-	    </dependencies>
+       </dependencies>
 
       <build>
         <plugins>

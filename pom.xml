@@ -48,7 +48,7 @@
             <!-- Eigene Bibliothek auf JitPack referenzieren -->
             <dependency>
                <groupId>com.github.mdecker-dh</groupId>
-               <artifactId>Maven_BruchrechnerBibliothek4JitPack</artifactId>
+               <artifactId>com.github.mdecker-dh</artifactId>
                <version>1.0.0</version>
             </dependency>
 

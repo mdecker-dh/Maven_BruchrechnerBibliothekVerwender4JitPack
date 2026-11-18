@@ -2,7 +2,9 @@ package de.eldecker.dhbw.bruchrechenverwender;
 
 import de.eldecker.dhbw.bruchrechnen.Bruch;
 
-
+/**
+ * Klasse mit Einstiegsmethode. 
+ */
 public class App {
     
     public static void main( String[] args ) {

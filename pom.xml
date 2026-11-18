@@ -9,7 +9,7 @@
         <groupId>de.eldecker.dhbw</groupId>
         <artifactId>bruchrechenverwender</artifactId>
         <version>0.0.1-SNAPSHOT</version>
-	
+
         <packaging>jar</packaging>
 
         <name>bruchrechenverwender</name>
@@ -42,6 +42,13 @@
 
         </properties>
 
+        
+        <repositories>
+            <repository>
+                <id>jitpack.io</id>
+                <url>https://jitpack.io</url>
+            </repository>
+        </repositories>        
 
         <dependencies>
 
@@ -54,8 +61,8 @@
 
        </dependencies>
 
-      <build>
-        <plugins>
+       <build>
+         <plugins>
             <plugin>
                 <!-- "Fat Jar" bauen, wenn Befehl "mvn package"" ausgeführt wird
                      Das "Fat Jar" sollte sich danach im Ordner "target/" befinden und wird wie folgt ausgeführt:
@@ -84,7 +91,7 @@
                     </execution>
                 </executions>
             </plugin>
-        </plugins>
-      </build>
+         </plugins>
+       </build>
 
 </project>

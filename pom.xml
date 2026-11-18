@@ -23,6 +23,7 @@
             </license>
         </licenses>
 
+
         <properties>
 
             <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -50,7 +51,8 @@
                 <url>https://jitpack.io</url>
             </repository>
 
-        </repositories>        
+        </repositories>
+
 
         <dependencies>
 
@@ -62,6 +64,7 @@
             </dependency>
 
        </dependencies>
+
 
        <build>
          <plugins>

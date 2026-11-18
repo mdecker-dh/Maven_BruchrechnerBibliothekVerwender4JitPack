@@ -4,7 +4,7 @@
 
 Die Repo enthält ein Maven-Projekt, das eine einfache Bruchberechnung unter Verwendung einer von uns
 ebenfalls als Maven-Projekt entwickelten Bibliothek durchführt, siehe
-[hier](https://github.com/MDecker-MobileComputing/Maven_BruchrechnerBibliothek) für diese Bibliothek.
+[hier](https://github.com/mdecker-dh/Maven_BruchrechnerBibliothek4JitPack) für diese Bibliothek.
 
 <br>
 
